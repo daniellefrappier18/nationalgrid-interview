@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import Markers from './Markers';
 
 const MapData = ({priorityFilter, statusFilter}) => {
-  const [mapLoaded, setmapLoaded] = useState(false); //state that tell application if the map data is done loading
+  const [mapLoaded, setmapLoaded] = useState(false); //state that tells application if the map data is done loading
   const [mapData, setMapData] = useState(); //state that holds the map data
   const [newMapLocations, setLocations] = useState(); //state that holds the restructure map data
 
@@ -45,8 +45,6 @@ const MapData = ({priorityFilter, statusFilter}) => {
     setLocations(array)
      
   }, [mapLoaded]);
-
-  console.log(newMapLocations);
 
     return (
       <div>

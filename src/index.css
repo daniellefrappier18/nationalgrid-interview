@@ -18,15 +18,15 @@ code {
 
 .priority-filter,
 .status-filter {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: lightblue;
   border: 1px solid black;
   border-radius: 15px;
-  padding: 20px 10px;
-  margin: 10px 0;
+  padding: 20px 15px;
+  margin: 10px auto;
 }
 
 .priority-filter select, 
